@@ -1,2 +1,2 @@
-# gerador-de-curr-culos
+# gerador-de-curriculos
 Projeto acadêmico.
