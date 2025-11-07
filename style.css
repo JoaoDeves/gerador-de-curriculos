@@ -1,0 +1,83 @@
+body {
+    background-color: #23286d;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border: none;
+    margin-bottom: 30px;
+}
+
+.experiencia-item, .referencia-item {
+    background-color: #f8f9fa;
+    position: relative;
+}
+
+.btn-remove {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+/* estilos para impressão */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    
+    body {
+        background-color: white;
+    }
+    
+    .container {
+        max-width: 100%;
+    }
+}
+
+.curriculo-preview {
+    background-color: rgba(12, 11, 63, 0.589);
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.curriculo-header {
+    border-bottom: 3px solid #0d6efd;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.curriculo-header h1 {
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+.curriculo-section {
+    margin-bottom: 30px;
+}
+
+.curriculo-section h3 {
+    color: #0d6efd;
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.curriculo-item {
+    margin-bottom: 20px;
+}
+
+.curriculo-item h5 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.curriculo-item p {
+    margin-bottom: 5px;
+    color: #666;
+}
